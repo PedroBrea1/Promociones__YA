@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	position: absolute;
+	top: 100px;
+	width: 500px;
+	height: 300px;
+	left: 240px;
+	border-color: #9A9392;
+	border-style: solid;
+	padding: 4px;
+	border-radius: 15px;
+}
+
+.logo {
+	position: relative;
+	top: 5px;
+	left: 280px;
+	height: 150px;
+	width: 300px;
+}
+
+
+.mensaje{
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+
+.usuario{
+	position: relative;
+	margin-top: 10px;
+	left: 10%;
+	top: 130px;
+	width: 80%;
+	height: 30px;
+	border-radius: 6px;
+}
+
+.ingreso{
+	position: absolute;
+	top: 60%;
+	left: 13%;
+	color: #fff;
+	background: #00e6e6;
+	width: 70%;
+	margin: 5px;
+	padding: 5px;
+	border-color: #ccccff;
+	border-style: solid;
+	border-radius: 5%;
+}
+
+.ingreso:hoover {
+	border-color: #fff;
+	transition: 0.7s;
+}
+
+.registro {
+	position: absolute;
+	left: 15%;
+	top: 75%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 70%;
+	font-weight: bold;
+}
+
+.registro:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+	color: white;
+}
+
+.volver {
+	position: absolute;
+	left: 1%;
+	top: 86%;
+	background: #EC2B49;
+	color: #fff;
+	border-radius: 15%;
+	padding: 15px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1.5px;
+	text-decoration: none;
+	text-align:center;
+	width: 80px;
+}
+
+.volver:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+}
+
+.eco {
+	position: absolute;
+	top: 63%;
+	left: 15%;
+	background: none;
+	color: red;
+	font-style: bold;
+
+}
+
+.eco1 {
+	position: absolute;
+	top: 63%;
+	left: 10%;
+	background: none;
+	color: red;
+	font-style: bold;
+
+}
+
+.menu {
+	position: absolute;
+	top: 15%;
+	left: 0.5%;
+}
+
+.menu a {
+	color: #000;
+	font-size: 20px;
+	position: absolute;
+	left: 20%;
+}
+
+.menu ul li {
+	padding: 15px;
+	position: relative;
+	width: 200px;	
+	border-top: solid;
+	border-width: 1.5px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+.intermedio1{
+	background: #90F020;
+}
+
+.intermedio2{
+	background: #9AF432;
+}
+
+.intermedio3{
+	background: #A2F542;
+}
+
+.intermedio4{
+	background: #ABF755;
+}
+
+.intermedio5{
+	background: #B7FB6A;
+}
+
+.menu ul li h4 {
+	background: none;
+}
+
+
+.menu ul ul {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+	left: 100%;
+	top: -2%;
+}
+
+.menu ul li:hover {
+	background: #99E85A;
+}
+
+.menu ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.menu ul li a { 
+	text-decoration: none;
+	background: none;
+}
+ 
+
+.encabezado {
+	position: relative;
+	left: 0%;
+	top: 0%;
+	height: 50px;
+	width: 230px;
+	background: #244E00;
+}
+
+.encabezado2 {
+	font-size: 120%;
+	color: #fff;
+	position: absolute;
+	left: 5%;
+	top:30%;
+	background: none;
+}
+
+.indicador {
+	color: white;
+}
+
+.bloque1 {
+	background:#fff;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	position: relative;
+	top: 5px;
+	left: 20px;
+	height: 85px;
+	width: 200px;
+}
+
+.overflow {
+	position: absolute;
+	top: 12%;
+	left: 17%;
+	width: 65%;
+	height: 85%;
+	background: #fff;
+	overflow: auto;
+	border-style: solid;
+	border-radius: 1%;
+	border-color: #9A9392;
+}

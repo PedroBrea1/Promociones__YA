@@ -1,0 +1,1202 @@
+*{
+	margin: 0;
+}
+
+header {
+	height: 95px;
+	background: #006400;
+	width: 100%
+}
+
+.contenedor {
+	width: 100%;
+}
+
+.cabecera {
+	position: absolute;
+	left: 7%;
+	top: 1.5%;
+}
+
+form {
+	position: absolute;
+	top: 19%;
+	width: 25%;
+	height: 67.5%;
+	left: 5%;
+	border-color: #9A9392;
+	border-style: solid;
+	padding: 0.26%;
+	border-radius: 5%;
+	background: #006400;
+}
+
+input {
+	position: relative;
+	margin-top: 3%;
+	left: 10%;
+	top: 5%;
+	width: 80%;
+	height: 5%;
+	border-radius: 6px;
+}
+
+.usuario {
+	position: absolute;
+	top: 20%;
+	font-size:0.9vw;
+}
+
+.sexo {
+	position: absolute;
+	top: 30%;
+	font-size:0.9vw;
+}
+
+.edad {
+	position: absolute;
+	top: 40%;
+	font-size:0.9vw;
+}
+
+.email {
+	position: absolute;
+	top: 50%;
+	font-size:0.9vw;
+}
+
+.contrasena {
+	position: absolute;
+	top: 60%;
+	font-size:0.9vw;
+}
+
+.repetircontrasena {
+	position: absolute;
+	top: 70%;
+	font-size:0.9vw;
+}
+
+select {
+	position: relative;
+	margin-top: 3%;
+	left: 10%;
+	top: 5%;
+	width: 81%;
+	height: 6%;
+	border-radius: 6px;
+}
+
+.intro {
+	position: absolute;
+	left: 37%;
+	top: 19%;
+	height: 65%;
+	border-style: solid;
+	border-radius: 5%;
+	border-color: #9A9392;
+	padding: 1%;
+	width: 55%;
+	background: #006400;
+}
+
+.texto{
+	position: absolute;
+	top: 18%;
+	left: 3.5%;
+	width: 55%;
+	height: 90%;
+	background: none;
+}
+
+.texto h1{
+	position: relative;
+	top: 2%;
+	background: none;
+	color: white;
+	font-size:1.9vw;
+}
+
+.texto h3{
+	position: relative;
+	top: 2%;
+	background: none;
+	color: white;
+	font-size:1.3vw;
+	margin-top: 3%;
+}
+
+.texto a{
+	font-size:1.3vw;
+}
+
+.benvenute {
+	font-size: 400%;
+	text-align: center;
+}
+
+.inbotonsi {
+	position: absolute;
+	top: 54.5%;
+	left: 80%;
+	width: 100px;
+	height: 25px;
+	background: #F6FD00;
+	color: #515405;
+	border-style: solid;
+	border-color: #848214;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.inbotonsi h6 {
+	position: absolute;
+	left: 12%;
+	top: 15%;
+	background: none;
+	font-size: 15px;
+}
+
+.bloque1 {
+	background:#fff;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	position: relative;
+	top: 5px;
+	left: 280px;
+	height: 150px;
+	width: 300px;
+}
+
+.muestra{
+	position: absolute;
+	left: 700px;
+	top: 30px;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 120px;
+}
+
+.muestratexto{
+	text-decoration: none;
+	background: none;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	left: 5px;
+}
+
+.muestra:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+	color: white;
+}
+
+.muestratexto:hover {
+	color: white;
+	transition: 0.7s;
+}
+
+.muestratexto2{
+	text-decoration: none;
+	background: #77E520;
+	color: #000;
+	font-weight: bold;
+	position: relative;
+	left: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	border-width: 0.5px;
+	margin-right: 5px;
+}
+
+.muestratexto2:hover {
+	color: white;
+	transition: 0.7s;
+	border-color: white;
+}
+
+.empresas{
+	position: absolute;
+	left: 45%;
+	top: 4%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 7.92%;
+}
+
+.empresas a {
+	text-decoration: none;
+}
+
+.empresastexto{
+	text-decoration: none;
+	background: none;
+	color: black;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-size:1.15vw;
+}
+
+.empresas:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+	color: white;
+}
+
+.empresastexto:hover {
+	color: white;
+	transition: 0.7s;
+}
+
+.miembros{
+	position: absolute;
+	left: 55%;
+	top: 4%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 7.92%;
+}
+
+.miembros a {
+	text-decoration: none;
+}
+
+.miembrostexto{
+	text-decoration: none;
+	background: none;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size:1.15vw;
+}
+
+.miembros:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+}
+
+.miembrostexto:hover {
+	color: white;
+	transition: 0.7s;
+}
+
+.saludo {
+	position: absolute;
+	left: 28.04%;
+	top: 2.5%;
+	color: white;
+	width: 16.5%;
+	font-weight: bold;
+	background: none;
+}
+
+.mensaje {
+	position: absolute;
+	left: 67%;
+	top: 3%;
+	color: white;
+	width: 33%;
+	font-weight: bold;
+	background: none;
+	font-size:1vw;
+}
+
+#registro {
+	position: absolute;
+	left: 15%;
+	top: 85%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 70%;
+	font-weight: bold; 
+	height: 30px;
+}
+
+#registro:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+	color: white;
+}
+
+.mundoimg {
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	height: 50%;
+	width: 50%;
+	border-radius: 15px;
+}
+
+
+.eco {
+	position: absolute;
+	top: 95%;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco1 {
+	position: absolute;
+	top: 58.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco2 {
+	position: absolute;
+	top: 28.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco3 {
+	position: absolute;
+	top: 68.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco4 {
+	position: absolute;
+	top: 48.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco5 {
+	position: absolute;
+	top: 28.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco6 {
+	position: absolute;
+	top: 78.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+.eco7 {
+	position: absolute;
+	top: 485px;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+}
+
+
+.mercadopago {
+	position: absolute;
+	top: 400px;
+	left: 100px;
+}
+
+.mercadopagotexto {
+	position: relative;
+	top: -5px;
+	left: 90px;
+	width: 300px;
+}
+
+.contrato{
+	position: absolute;
+	left: 0px;
+	top: 452px;
+	width: 150px;
+	height: 5px;
+}
+
+.contratobox{
+	position: absolute;
+	left: 40px;
+	top: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+.contrato h5{
+	position: relative;
+	left: 70px;
+	top: 20px;
+	width: 200px;
+}
+
+.contrato a{
+	position: relative;
+	left: 250px;
+	top: 2px;
+	text-decoration: none;
+}
+
+.caja1{
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 60%;
+ 	border-style:solid;
+ 	border-color: #9A9392;
+ 	border-radius: 10%;
+ 	width: 35%;
+ 	height: 65%;
+ 	background: #D2F7A7;
+}
+
+.fondopromo{
+	position: absolute;
+	left: 4.5%;
+	top: 5%;
+	height: 80%;
+	width: 90%;
+	background: #fff;
+	border-radius: 25px;
+	border-color: grey;
+	border-width:2px;
+	border-style: solid;
+}
+
+.dias{
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	color: #000;
+}
+
+.numero {
+	position: absolute;
+	top: 23%;
+	left: 7%;
+	height:30%;
+	width: 20%; 
+	color: red;
+	font-size: 4vw;
+}
+
+.porcentaje {
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 3%;
+	height:50%;
+	width: 100%; 
+	color: red;
+	font-size:2.8vw;
+}
+
+.desc {
+	position: absolute;
+	display: block;
+	top: 80%;
+	left: 5%;
+	width: 100%;
+	height:7%;
+	color: red;
+	text-align: center;
+	font-size:1vw;
+}
+
+.porc-desc {
+	position: absolute;
+	top: 23%;
+	left: 29%;
+}
+
+.imgpromo{
+	position: absolute;
+	top: 26%;
+	left: 52%;
+	height: 18%; 
+	width: 45%;
+}
+
+.imgtarjeta1{
+	position: absolute;
+	top: 72%;
+	left: 5%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.imgtarjeta2{
+	position: absolute;
+	top: 72%;
+	left: 20%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.imgtarjeta3{
+	position: absolute;
+	top: 72%;
+	left: 35%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cond0{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond1{
+	position: absolute;
+	top: 53%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond2{
+	position: absolute;
+	top: 61%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond3{
+	position: absolute;
+	top: 69%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond4{
+	position: absolute;
+	top: 69%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond5{
+	position: absolute;
+	top: 77%;
+	left: 5%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.validez{
+	position: absolute;
+	top: 89%;
+	left: 7%;
+	font-size:1.3vw;
+	font-style: normal;
+	font-weight: 700;
+	color: #000;
+}
+
+.botonsi{
+ 	position: absolute;
+	left: 64%;
+	top: 88%;
+	width: 28%;
+	height: 7%;
+	background: #F6FD00;
+	color: #515405;
+	border-style: solid;
+	border-color: #848214;
+	border-radius: 15px;
+	text-decoration: none;	
+}
+
+.botonsi:hover {
+ 	border-color: #FBFAF2;
+	transition: 0.7s;
+}
+
+.verlocal {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	font-weight: 700;
+	text-decoration: none;
+	color: #848214;
+	font-size:0.9vw;
+}
+
+.verlocal:hover {
+	color: #FBFAF2;
+	transition: 0.7s;
+}
+
+@media screen and (max-width: 980px){
+	header {
+		position: absolute;
+	}
+
+.cabecera {
+	position: absolute;
+	left: 1%;
+}
+
+.mensaje {
+	position: absolute;
+	left: 67%;
+	top: 3%;
+	color: white;
+	width: 33%;
+	font-weight: bold;
+	background: none;
+	font-size:1.6vw;
+}
+
+.empresas{
+	position: absolute;
+	left: 37%;
+	top: 25%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 12%;
+}
+
+.empresas a {
+	text-decoration: none;
+}
+
+.empresastexto{
+	text-decoration: none;
+	background: none;
+	color: black;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-size:2vw;
+}
+
+.verlocal {
+	position: absolute;
+	top: 25%;
+	font-weight: 700;
+	text-decoration: none;
+	color: #848214;
+	font-size:1.2vw;
+}
+
+.miembros{
+	position: absolute;
+	left: 52%;
+	top: 25%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 12%;
+}
+
+.miembros a {
+	text-decoration: none;
+}
+
+.miembrostexto{
+	text-decoration: none;
+	background: none;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size:2vw;
+}
+
+.intro {
+	position: absolute;
+	left: 5%;
+	top: 150px;
+	height: 500px;
+	border-style: solid;
+	border-radius: 5%;
+	border-color: #9A9392;
+	padding: 1%;
+	width: 90%;
+	background: #006400;
+}
+
+form {
+	position: absolute;
+	top: 720px;
+	width: 80%;
+	height: 900px;
+	left: 10%;
+	border-color: #9A9392;
+	border-style: solid;
+	padding: 0.26%;
+	border-radius: 5%;
+	background: #006400;
+}
+
+input {
+	position: relative;
+	margin-top: 2%;
+	left: 10%;
+	top: 4%;
+	width: 80%;
+	height: 8%;
+	border-radius: 6px;
+	font-size: 120%;
+}
+
+.usuario {
+	position: absolute;
+	top: 17%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+.sexo {
+	position: absolute;
+	top: 29%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+.edad {
+	position: absolute;
+	top: 41%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+.email {
+	position: absolute;
+	top: 53%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+.contrasena {
+	position: absolute;
+	top: 65%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+.repetircontrasena {
+	position: absolute;
+	top: 77%;
+	height: 7%;
+	font-size: 3vw;
+}
+
+select {
+	position: relative;
+	margin-top: 2%;
+	left: 10%;
+	top: 5%;
+	width: 81%;
+	height: 8%;
+	border-radius: 6px;
+	font-size: 120%;
+}
+
+#registro {
+	position: absolute;
+	left: 25%;
+	top: 88%;
+	background: #77E520;
+	color: #000;
+	border-radius: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 50%;
+	font-weight: bold; 
+	height: 7%;
+	font-size: 3vw;
+}
+
+.caja1{
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 60%;
+ 	border-style:solid;
+ 	border-color: #9A9392;
+ 	border-radius: 10%;
+ 	width: 35%;
+ 	height: 75%;
+ 	background: #D2F7A7;
+}
+
+.dias{
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	font-size: 2.5vw;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	color: #000;
+}
+
+.numero {
+	position: absolute;
+	top: 25%;
+	left: 4%;
+	color: red;
+	font-size: 7vw;
+}
+
+.porc-desc {
+	position: absolute;
+	top: 27%;
+	left: 31%;
+}
+
+.porcentaje {
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 3%;
+	height:50%;
+	width: 100%; 
+	color: red;
+	font-size: 4vw;
+}
+
+.desc {
+	position: absolute;
+	display: block;
+	top: 80%;
+	left: 5%;
+	width: 100%;
+	height:7%;
+	color: red;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.imgtarjeta1{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.imgtarjeta2{
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.imgtarjeta3{
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	height:9%; 
+	width:13%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.validez{
+	position: absolute;
+	top: 90%;
+	left: 5%;
+	font-size:2vw;
+	font-style: normal;
+	font-weight: 700;
+	color: #000;
+}
+
+.inbotonsi {
+	position: absolute;
+	top: 54.5%;
+	left: 80%;
+	width: 20%;
+	height: 25px;
+	background: #F6FD00;
+	color: #515405;
+	border-style: solid;
+	border-color: #848214;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.inbotonsi h6 {
+	position: absolute;
+	left: 12%;
+	top: 15%;
+	background: none;
+	font-size: 15px;
+}
+
+
+
+.texto{
+	position: absolute;
+	top: 11%;
+	left: 3.5%;
+	width: 55%;
+	height: 90%;
+	background: none;
+}
+
+.texto h1{
+	position: relative;
+	top: 2%;
+	background: none;
+	color: white;
+	font-size:3vw;
+}
+
+.texto h3{
+	position: relative;
+	top: 2%;
+	background: none;
+	color: white;
+	font-size:2.2vw;
+	margin-top: 3%;
+}
+
+.texto a{
+	font-size:2vw;
+}
+
+.cond0{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond1{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond2{
+	position: absolute;
+	top: 62%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond3{
+	position: absolute;
+	top: 69%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond4{
+	position: absolute;
+	top: 69%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cond5{
+	position: absolute;
+	top: 77%;
+	left: 5%;
+	font-size:2.2vw;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.eco {
+	position: absolute;
+	top: 97%;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco1 {
+	position: absolute;
+	top: 63.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco2 {
+	position: absolute;
+	top: 27.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco3 {
+	position: absolute;
+	top: 75.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco4 {
+	position: absolute;
+	top: 51.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco5 {
+	position: absolute;
+	top: 27.5%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.eco6 {
+	position: absolute;
+	top: 87%;
+	text-align: center;
+	width: 100%;
+	background: none;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.saludo {
+	position: absolute;
+	left: 0%;
+	top: 100px;
+	color: black;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	background: none;
+	font-size: 2vw;
+}
+
+}

@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.bloque1 {
+	background:#fff;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bloque1 h4 {
+	position: absolute;
+	top: 15px;
+	left: 1100px;
+	color: #fff;
+}
+
+.logo {
+	position: relative;
+	top: 5px;
+	left: 20px;
+	height: 85px;
+	width: 200px;
+}
+
+form {
+	position: absolute;
+	top: 100px;
+	width: 25%;
+	height: 300px;
+	left: 10%;
+	border-color: #9A9392;
+	border-style: solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+label {
+	margin-top: 8px;
+}
+
+input {
+	position: relative;
+	margin-top: 20px;
+	left: 10%;
+	top: 5%;
+	width: 80%;
+	height: 30px;
+	border-radius: 6px;
+}
+
+#iniciosesion {
+	position: absolute;
+	left: 15%;
+	top: 75%;
+	background: #77E520;
+	color: #000;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.5px;
+	text-decoration: none;
+	width: 70%;
+}
+
+#iniciosesion:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+	color: white;
+}
+
+.img1 {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+}
+
+.img2 {
+	position: absolute;
+	top: 15%;
+	left: 65%;
+}
+
+.img3 {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+
+.img4 {
+	position: absolute;
+	top: 45%;
+	left: 65%;
+}
+
+
+
+.volver {
+	position: absolute;
+	left: 85%;
+	top: 80%;
+	background: #EC2B49;
+	color: #fff;
+	border-radius: 15%;
+	padding: 15px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1.5px;
+	text-decoration: none;
+	text-align:center;
+	width: 80px;
+}
+
+.volver:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+}
+
+.eco {
+	position: absolute;
+	top: 50%;
+	left: 16%;
+	background: none;
+	color: red;
+	font-style: bold;
+}
+

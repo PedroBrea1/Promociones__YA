@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cabecera{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+.inciso{
+	position: relative;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p{
+	position: relative;
+	left: 50px;
+	width: 800px;
+	top: 100px;
+}
+
+.volver {
+	position: absolute;
+	left: 1%;
+	top: 1600px;
+	margin: 20px;
+	background: #EC2B49;
+	color: #fff;
+	border-radius: 15%;
+	padding: 15px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1.5px;
+	text-decoration: none;
+	text-align:center;
+	width: 80px;
+}
+
+.volver:hover {
+	border-color: #F6F4E8;
+	transition: 0.7s;
+}
+
